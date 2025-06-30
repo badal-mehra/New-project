@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { X, User, Mail, Lock, Save, Eye, EyeOff, CheckCircle, Send } from 'lucide-react';
-import { useAuth } from '../context/AuthContext';
+import { useAuth } from '../content/AuthContext';
 
 interface AccountSettingsProps {
   onClose: () => void;
