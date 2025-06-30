@@ -12,7 +12,7 @@ import AdminDashboard from './pages/AdminDashboard';
 import VerifyCertificate from './pages/VerifyCertificate';
 import MatrixBackground from './components/MatrixBackground';
 import AIMentor from './components/AIMentor';
-import { AuthProvider, useAuth } from './context/AuthContext';
+import { AuthProvider, useAuth } from './content/AuthContext';
 
 function AppContent() {
   const { user } = useAuth();
