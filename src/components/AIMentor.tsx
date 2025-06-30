@@ -4,7 +4,7 @@ import { MessageCircle, X, Send, Bot, User, Image, Loader } from 'lucide-react';
 import { GoogleGenerativeAI } from '@google/generative-ai';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
-import { useAuth } from '../context/AuthContext';
+import { useAuth } from '../content/AuthContext';
 
 interface Message {
   id: string;
