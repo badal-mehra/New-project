@@ -4,7 +4,7 @@ import { X, Download, Award, QrCode } from 'lucide-react';
 import QRCode from 'qrcode';
 import html2canvas from 'html2canvas';
 import jsPDF from 'jspdf';
-import { useAuth } from '../context/AuthContext';
+import { useAuth } from '../content/AuthContext';
 
 interface CertificateGeneratorProps {
   onClose: () => void;
